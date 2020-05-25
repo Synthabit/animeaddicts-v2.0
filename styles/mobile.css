@@ -41,6 +41,10 @@
     .nav-list li {
         float: none;
     }
+
+    .active {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 600px) {
