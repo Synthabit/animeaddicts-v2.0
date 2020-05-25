@@ -1,0 +1,62 @@
+/* landing */
+
+#landing-bkgd {
+    background-image: url('../assets/img/Showcase-Bench.png');
+}
+
+/* "About Us" block */
+
+#about {
+    background: var(--main-window-color);
+}
+
+/* "Main Activities" block */
+
+#act-container {
+    background: rgba(0, 0, 0, 0);
+}
+
+#act {
+    background: var(--main-window-color-light);
+}
+
+#act-instances {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    row-gap: 80px;
+    max-width: var(--content-container-width);
+}
+
+.act-instance {
+    text-decoration: none;
+}
+
+.act-instance img {
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.act-instance h3, .act-instance p {
+    color: var(--main-txt-color-dark);
+    text-align: center;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.act-instance h3 {
+    font-size: var(--h3-size);
+}
+
+.act-instance p {
+    font-size: var(--main-font-size);
+}
+
+
+#social-about svg path {
+    fill: white;
+}

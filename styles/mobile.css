@@ -1,0 +1,97 @@
+@media screen and (max-width: 900px) {
+    /* CSS Variables */
+
+    :root {
+        /* block-container */
+        --content-container-width: 60%;
+
+        /* font-sizes */
+        --h1-size: 50px;
+        --h2-size: 30px;
+        --h3-size: 25px;
+        --h4-size: 20px;
+
+        --main-font-size: 14px;
+
+        --p-showcase-size: 20px;
+    }
+
+    /* container */
+
+    .container {
+        max-width: 100%;
+    }
+    
+    /* Navbar */
+
+    .brand {
+        float: none;
+        transform: translate(15%, 0);
+    }
+
+    #nav-hamburger {
+        display: block;
+    }
+
+    .nav-list {
+        display: none;
+        float: none;
+    }
+
+    .nav-list li {
+        float: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /* CSS Variables */
+
+    :root {
+        /* section-container */
+        --content-container-width: 70%;
+
+        /* font-sizes */
+        --h1-size: 40px;
+        --h2-size: 30px;
+        --h3-size: 20px;
+
+        --main-font-size: 12px;
+
+        --p-showcase-size: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    /* CSS Variables */
+
+    :root {
+        /* section-container */
+        /* --content-container-width: 80%; */
+
+        /* font-sizes */
+        --h1-size: 30px;
+        --h2-size: 25px;
+        --h3-size: 20px;
+        --h4-size: 15px;
+
+        --main-font-size: 12px;
+
+        --p-showcase-size: 17px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    /* CSS Variables */
+
+    :root {
+        /* font-sizes */
+        --h1-size: 25px;
+        --h2-size: 22px;
+        --h3-size: 17px;
+        --h4-size: 12x;
+
+        --main-font-size: 10px;
+
+        --p-showcase-size: 12px;
+    }
+}
