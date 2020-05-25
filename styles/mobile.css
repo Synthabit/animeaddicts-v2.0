@@ -42,6 +42,11 @@
         float: none;
     }
 
+    .nav-list li a:hover {
+        color: var(--main-txt-color-light);
+        background: none;
+    }
+
     .active {
         display: block;
     }

@@ -4,8 +4,6 @@ var navList = document.getElementsByClassName("nav-list")[0];
 
 var clicked = false;
 
-hamburger.addEventListener("mouseover", hamburgerOnHover);
-hamburger.addEventListener("mouseout", hamburgerOnLeave);
 hamburger.addEventListener("click", hamburgerOnClick);
 
 function hamburgerOnHover() {
@@ -33,5 +31,26 @@ function hamburgerOnLeave() {
 }
 
 function hamburgerOnClick() {
+    clicked = !clicked;
+    if (clicked) {
+        Object.assign(hamburger.style, {
+            background: "#cabfe9"
+        });
+        for (var i = 0; i < rectangles.length; ++i) {
+            Object.assign(rectangles[i].style, {
+                fill: "#160e2b"
+            });
+        }
+    } else {
+        Object.assign(hamburger.style, {
+            background: ""
+        });
+    
+        for (var i = 0; i < rectangles.length; ++i) {
+            Object.assign(rectangles[i].style, {
+                fill: "#cabfe9"
+            });
+        }
+    }
     navList.classList.toggle("active");
 }
