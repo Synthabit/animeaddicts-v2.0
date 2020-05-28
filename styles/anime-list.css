@@ -15,17 +15,20 @@
 
 .animelist-instance div, .animelist-instance ul {
     display: flex;
+    display: -webkit-flex;          /* Safari */
     align-items: center;
 }
 
 /* Anime title & picture */
 .animelist-instance div {
     justify-content: left;
+    -webkit-justify-content: left;  /* Safari 6.1+ */
 }
 
 /* Anime showing schedule */
 .animelist-instance ul {
     justify-content: right;
+    -webkit-justify-content: right; /* Safari 6.1+ */
 }
 
 .animelist-instance a {
@@ -47,12 +50,10 @@
 
 .instance-schedule-next {
     list-style-type: none;
-    /* float: right; */
 }
 
 .instance-schedule-next li {
     margin-left: 20px;
-    text-align: right;
 }
 
 /* ======================================================================

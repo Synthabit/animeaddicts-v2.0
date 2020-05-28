@@ -14,8 +14,8 @@
             <!--Nav-->
             <script type="text/javascript" src="scripts/templates/nav.js"></script>
             <script type="text/javascript">
-                INTERNAL.init(["", "assets/", "pages/"]); // home dir, logo dir, site pages dir
-                INTERNAL.writeNav();
+                NAV.init(["", "assets/", "pages/"]); // home dir, logo dir, site pages dir
+                NAV.writeNav();
             </script>
             <main>           
                 <!-- Landing -->
@@ -83,7 +83,11 @@
             </main>
 
             <!-- Footer -->
-            <script src="scripts/templates/footer.js"></script>
+            <script type="text/javascript" src="scripts/templates/footer.js"></script>
+            <script type="text/javascript">
+                FOOTER.init(["assets/"]); // signature dir
+                FOOTER.writeFooter();
+            </script>
 
             <!-- Scripts -->
             <script src="scripts/onPageLoad.js"></script>
