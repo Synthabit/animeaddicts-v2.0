@@ -60,3 +60,22 @@
 #social-about svg path {
     fill: white;
 }
+
+/* ======================================================================
+ * MOBILE
+ * ====================================================================== */
+
+ @media screen and (max-width: 900px) {
+    #act-instances {
+        display: block;
+    }
+
+    .act-instance img {
+        width: 50%; 
+    }
+
+    .act-instance h3, .act-instance p {
+        width: 75%;
+        padding-bottom: 20px;
+    }
+}

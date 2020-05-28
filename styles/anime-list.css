@@ -1,0 +1,77 @@
+.animelist {
+    padding: 20px 0px 20px 0px;
+    border-top: 1px solid white;
+}
+
+.animelist-instance {
+    color: white;
+    font-size: var(--p-showcase-size);
+    height: 80px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 20px;
+}
+
+.animelist-instance div, .animelist-instance ul {
+    display: flex;
+    align-items: center;
+}
+
+/* Anime title & picture */
+.animelist-instance div {
+    justify-content: left;
+}
+
+/* Anime showing schedule */
+.animelist-instance ul {
+    justify-content: right;
+}
+
+.animelist-instance a {
+    text-decoration: none;
+    color: white;
+}
+
+.animelist-instance img {
+    width: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.instance-header {
+    font-size: var(--p-showcase-size);
+    height: 100%;
+    float: left;
+}
+
+.instance-schedule-next {
+    list-style-type: none;
+    /* float: right; */
+}
+
+.instance-schedule-next li {
+    margin-left: 20px;
+}
+
+/* ======================================================================
+ * MOBILE
+ * ====================================================================== */
+
+@media screen and (max-width: 600px) {
+     .animelist-instance img {
+         width: 65px;
+     }
+}
+
+@media screen and (max-width: 500px) {
+    .animelist-instance img {
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .animelist-instance img {
+        width: 55px;
+    }
+}

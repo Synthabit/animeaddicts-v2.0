@@ -3,7 +3,7 @@
 
     :root {
         /* block-container */
-        --content-container-width: 60%;
+        --block-container-width: 60%;
 
         /* font-sizes */
         --h1-size: 50px;
@@ -57,7 +57,7 @@
 
     :root {
         /* section-container */
-        --content-container-width: 70%;
+        --block-container-width: 70%;
 
         /* font-sizes */
         --h1-size: 40px;
@@ -70,7 +70,7 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     /* CSS Variables */
 
     :root {
@@ -89,7 +89,7 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     /* CSS Variables */
 
     :root {
