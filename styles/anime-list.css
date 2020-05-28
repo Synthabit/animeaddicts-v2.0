@@ -15,20 +15,22 @@
 
 .animelist-instance div, .animelist-instance ul {
     display: flex;
-    display: -webkit-flex;          /* Safari */
+    display: -webkit-flex;
     align-items: center;
 }
 
 /* Anime title & picture */
 .animelist-instance div {
     justify-content: left;
-    -webkit-justify-content: left;  /* Safari 6.1+ */
+    -webkit-justify-content: left;
+    float: left;
 }
 
 /* Anime showing schedule */
 .animelist-instance ul {
-    justify-content: right;
-    -webkit-justify-content: right; /* Safari 6.1+ */
+    /* justify-content: right;
+    -webkit-justify-content: right; */
+    margin-left: auto;
 }
 
 .animelist-instance a {
