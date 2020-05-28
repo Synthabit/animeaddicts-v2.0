@@ -74,7 +74,7 @@ var FOOTER = FOOTER || (function() {
                         <p>Western Michigan University | Kalamazoo, MI 49008</p>
                         <p>
                             Designed by Jeremy Evans
-                            <img src="${_args[0]}img/SynthabitMain_Transparent_Cropped.png" alt=""> 
+                            <img src="${_args[0]}img/SynthabitMain_Transparent_Cropped_Cyan.png" alt=""> 
                         </p>                                  
                     </div>
                 </footer>

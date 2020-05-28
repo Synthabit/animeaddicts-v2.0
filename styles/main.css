@@ -4,16 +4,22 @@
 
 :root {
     /* colors: bg */
-    --main-window-color: #160e2b;
-    --main-window-color-light: #cabfe9;
+    /* --main-window-color: #160e2b;
+    --main-window-color-light: #cabfe9; */
+
+    --main-window-color: #002b2b;
+    --main-window-color-light: #00ffff;
 
     /* --main-bg-color: #1d1d1d; */
     --main-bg-color: #000000;
     --main-nav-color: #00000075;
 
     /* colors: text */
-    --main-txt-color-light: #cabfe9;
-    --main-txt-color-dark: #160e2b;
+    /* --main-txt-color-light: #cabfe9;
+    --main-txt-color-dark: #160e2b; */
+
+    --main-txt-color-light: #00ffff;
+    --main-txt-color-dark: #002b2b;
 
     /* dimensions-global */
     --parallax-img-width: 100%;

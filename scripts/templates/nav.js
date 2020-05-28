@@ -1,5 +1,5 @@
 // Consider: This will not work in internet explorer.
-var date = "5-28-2020 : 3"
+var date = "5-28-2020 : 4"
 var NAV = NAV || (function() {
     var _args = {}; // private
     return {
@@ -12,7 +12,7 @@ var NAV = NAV || (function() {
                     <div class="container">
                         <div class="brand">
                             <a href="${_args[0]}index.html">
-                                <img src="${_args[1]}img/LogoSolid_WebColor.png" alt="LOGO">
+                                <img src="${_args[1]}img/LogoSolid.png" alt="LOGO">
                             </a>
                             <!-- Remove this in production -->
                             <!-- v -->
