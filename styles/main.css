@@ -116,13 +116,17 @@ nav {
 .brand {
     display: inline-block;
     /* float: left; */
-    padding-top: 2px;
+    padding-top: 3px;
 }
 
 .brand img {
     border-radius: 50%;
     width: 45px;
     height: 45px;
+}
+
+.brand img:hover {
+    cursor: pointer;
 }
 
 /* Remove this in production */
