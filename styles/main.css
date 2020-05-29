@@ -7,8 +7,8 @@
     /* --main-window-color: #160e2b;
     --main-window-color-light: #cabfe9; */
 
-    --main-window-color: #002b2b;
-    --main-window-color-light: #00ffff;
+    --main-window-color: #003838;
+    --main-window-color-light: #99ffff;
 
     /* --main-bg-color: #1d1d1d; */
     --main-bg-color: #000000;
@@ -18,8 +18,8 @@
     /* --main-txt-color-light: #cabfe9;
     --main-txt-color-dark: #160e2b; */
 
-    --main-txt-color-light: #00ffff;
-    --main-txt-color-dark: #002b2b;
+    --main-txt-color-light: #99ffff;
+    --main-txt-color-dark: #003838;
 
     /* dimensions-global */
     --parallax-img-width: 100%;
@@ -397,11 +397,16 @@ footer {
     height: var(--main-font-size);
 }
 
+.footer-text svg path {
+    /* fill: var(--main-txt-color-light); */
+    fill: var(--main-txt-color-light);
+}
+
 #social-footer {
     padding: 5px 0px 5px 0px;
     border-top: none;
 }
 
-#social-footer svg path {
+/* #social-footer svg path {
     fill: var(--main-txt-color-light);
-}
+} */
