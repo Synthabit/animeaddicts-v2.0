@@ -10,6 +10,23 @@
     background: var(--main-window-color);
 }
 
+#social-about {
+    padding: 20px 0px 0px 0px;
+}
+
+#social-about ul {
+    text-align: left;
+}
+
+#social-about svg {
+    width: 50px;
+    height: 50px;
+}
+
+#social-about svg path {
+    fill: white
+}
+
 /* "Main Activities" block */
 
 #act-container {
@@ -56,26 +73,28 @@
     font-size: var(--main-font-size);
 }
 
-
-#social-about svg path {
-    fill: white;
-}
-
 /* ======================================================================
  * MOBILE
  * ====================================================================== */
 
- @media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
     #act-instances {
         display: block;
     }
 
     .act-instance img {
-        width: 50%; 
+        width: 40%; 
     }
 
     .act-instance h3, .act-instance p {
         width: 75%;
         padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #social-about svg {
+        width: 40px;
+        height: 40px;
     }
 }

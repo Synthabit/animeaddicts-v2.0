@@ -28,9 +28,9 @@ var NAV = NAV || (function() {
                         </div>
                         <ul class="nav-list">
                             <li><a href="${_args[2]}anime-list.html">ANIME LIST</a></li>
-                            <li><a href="#">EVENTS</a></li>
-                            <li><a href="#">NEWS</a></li>
-                            <li><a href="#">WIKI</a></li>
+                            <li><a href="${_args[2]}events.html">EVENTS</a></li>
+                            <li><a href="${_args[2]}news.html">NEWS</a></li>
+                            <li><a href="${_args[2]}wiki.html">WIKI</a></li>
                         </ul><!-- nav-list -->  
                     </div><!-- container -->
                 </nav><!-- nav -->
