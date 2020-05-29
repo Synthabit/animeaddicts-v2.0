@@ -6,39 +6,16 @@ var clicked = false;
 
 hamburger.addEventListener("click", hamburgerOnClick);
 
-function hamburgerOnHover() {
-    Object.assign(hamburger.style, {
-        background: "#cabfe9"
-    });
-
-    for (var i = 0; i < rectangles.length; ++i) {
-        Object.assign(rectangles[i].style, {
-            fill: "#160e2b"
-        });
-    }
-}
-
-function hamburgerOnLeave() {
-    Object.assign(hamburger.style, {
-        background: ""
-    });
-
-    for (var i = 0; i < rectangles.length; ++i) {
-        Object.assign(rectangles[i].style, {
-            fill: "#cabfe9"
-        });
-    }
-}
-
 function hamburgerOnClick() {
     clicked = !clicked;
     if (clicked) {
         Object.assign(hamburger.style, {
-            background: "#cabfe9"
+            // background: "#cabfe9"
+            background: "#99ffff"
         });
         for (var i = 0; i < rectangles.length; ++i) {
             Object.assign(rectangles[i].style, {
-                fill: "#160e2b"
+                fill: "#003838"
             });
         }
     } else {
@@ -48,7 +25,7 @@ function hamburgerOnClick() {
     
         for (var i = 0; i < rectangles.length; ++i) {
             Object.assign(rectangles[i].style, {
-                fill: "#cabfe9"
+                fill: "#99ffff"
             });
         }
     }
