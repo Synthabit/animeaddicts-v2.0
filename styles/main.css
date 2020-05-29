@@ -317,7 +317,7 @@ nav {
 .article-container {
     max-width: 90%;
     margin: 100px auto 60px auto;
-    border-radius: 5px;
+    border-radius: 15px;
     background: rgba(0, 0, 0, 0.5);
     min-height: 100vh;
 }
@@ -325,7 +325,7 @@ nav {
 .article-content {
     max-width: 90%;
     margin: auto;
-    padding: 20px 0px 20px 0px;
+    padding: 40px 0px 40px 0px;
     color: white;
 }
 
