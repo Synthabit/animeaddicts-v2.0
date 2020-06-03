@@ -1,5 +1,5 @@
 // Consider: This will not work in internet explorer.
-var date = "5-29-2020 : 3"
+var date = "6-3-2020 : 1"
 var NAV = NAV || (function() {
     var _args = {}; // private
     return {
@@ -30,6 +30,8 @@ var NAV = NAV || (function() {
                             <li><a href="${_args[2]}anime-list.html">ANIME LIST</a></li>
                             <li><a href="${_args[2]}events.html">EVENTS</a></li>
                             <li><a href="${_args[2]}news.html">NEWS</a></li>
+                            <li><a href="${_args[2]}gallery.html">GALLERY</a></li>
+                            <li><a href="${_args[2]}members.html">MEMBERS</a></li>
                             <li><a href="${_args[2]}wiki.html">WIKI</a></li>
                         </ul><!-- nav-list -->  
                     </div><!-- container -->
