@@ -12,7 +12,7 @@ var NAV = NAV || (function() {
                     <div class="container">
                         <div class="brand">
                             <a href="${_args[0]}index.html">
-                                <img src="${_args[1]}img/AnimeAddicts-Logo.jpg" alt="LOGO">
+                                <img src="${_args[1]}img/Anime_Addicts_Logo_Ken_Clean.png" alt="LOGO">
                             </a>
                             <!-- Remove this in production -->
                             <!-- v -->
