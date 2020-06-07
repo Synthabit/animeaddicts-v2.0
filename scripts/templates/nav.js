@@ -1,5 +1,5 @@
 // Consider: This will not work in internet explorer.
-var date = "6-4-2020 : 1"
+var date = "6-7-2020 : 1"
 var NAV = NAV || (function() {
     var _args = {}; // private
     return {

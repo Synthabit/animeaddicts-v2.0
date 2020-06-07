@@ -100,6 +100,9 @@ body {
 
 .content-wrap {
     position: relative;
+}
+
+main {
     min-height: 100vh;
 }
 
@@ -109,7 +112,6 @@ body {
 
 nav {
     z-index: 3;
-    /* height: var(--nav-height); */
     width: 100%;
     background: var(--main-nav-color);
     position: fixed;

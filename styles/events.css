@@ -1,11 +1,8 @@
-#events-head {
-    border-bottom: 1px solid white;
-}
 .events-instance {
     color: white;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-bottom: 1px solid white;
+    border-top: 1px solid white;
     width: 100%;
     display: grid;
     grid-template-columns: minmax(50px, 10%) auto 20%;
