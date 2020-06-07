@@ -16,7 +16,7 @@
     padding-bottom: 10px;
 }
 
-/* #gallery-header::before {
+#gallery-header::before {
     content: "";
     top: 0;
     left: 0;
@@ -42,7 +42,7 @@
     position: absolute;
     background: linear-gradient(rgba(15, 15, 15, 0.5), rgb(15, 15, 15));
     z-index: 1;
-} */
+}
 
 #gallery-header-inside {
     position: relative;
@@ -57,8 +57,7 @@
 
 /* Gallery */
 
-#images-wrapper {
-    display: inline-block;    
+#images-wrapper { 
     margin-right: auto;    
     margin-left: auto; 
     line-height: 0;       
