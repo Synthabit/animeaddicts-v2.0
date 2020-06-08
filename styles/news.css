@@ -69,6 +69,7 @@
     width: 200px;
     margin-right: 20px; 
     float: left;
+    border-radius: 5px;
 }
 
 /* news-instance: news-button */

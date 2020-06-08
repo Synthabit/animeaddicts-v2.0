@@ -4,43 +4,125 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-        <link rel="shortcut icon" href="assets/img/Anime_Addicts_Logo_Ken_Clean.png" type="image/x-icon">
+        <link rel="shortcut icon" href="../assets/img/Anime_Addicts_Logo_Ken_Clean.png" type="image/x-icon">
         <link rel="stylesheet" href="../styles/main.css">
         <link rel="stylesheet" href="../styles/mobile.css">
+        <link rel="stylesheet" href="../styles/wiki.css">
         <title>Anime Addicts WMU | Wiki</title>
     </head>
-    <body class="article-bkgd">
-        <div class="content-wrap">
-            <!-- Nav -->
-            <script type="text/javascript" src="../scripts/templates/nav.js"></script>
-            <script type="text/javascript">
-                NAV.init(["../", "../assets/", ""]); // home dir, logo dir, site pages dir
-                NAV.writeNav();
-            </script>
+    <body class="article-bkgd" id="wiki-bkgd">
+        <!-- Nav -->
+        <script type="text/javascript" src="../scripts/templates/nav.js"></script>
+        <script type="text/javascript">
+            NAV.init(["../", "../assets/", ""]); // home dir, logo dir, site pages dir
+            NAV.writeNav();
+        </script>
 
-            <main>
-                <div class="article-container">
-                    <div class="article-content">
-                        <section class="article-head">
-                            <h2>Wiki</h2>
-                        </section>
-                    </div><!-- article-content -->
-                </div><!-- article-container -->
-            </main>
+        <main>
+            <!-- header -->
+            <div class="article-head-imgbanner" id="wiki-head">
+                <div class="article-head-imgbanner-inside">
+                    <h2>Wiki</h2>
+                </div>
+            </div>
 
-            <!-- Footer -->
-            <script type="text/javascript" src="../scripts/templates/footer.js"></script>
-            <script type="text/javascript">
-                FOOTER.init(["../assets/"]); // signature dir
-                FOOTER.writeFooter();
-            </script>
+            <!-- content -->
+            <div class="article-container">
+                <div class="article-content">
+                    <!-- FAQ -->
+                    <section id="faq">
+                        <h3>FAQ</h3>
 
-            <!-- Scripts -->
-            <script src="../scripts/onPageLoad.js"></script>
-            <script src="../scripts/onScroll-script.js"></script>
+                        <div class="faq-instance">
+                            <p class="faq-question">What is this site?</p>
+                            <p class="faq-answer">
+                                This is a template for the WMU Anime Addicts website. The final 
+                                website will appear very much like this prototype (with original
+                                artwork/photos and content in place of the placeholders on this 
+                                prototype). It will serve as the club's informational hub and 
+                                repository of artwork, photos and video.
+                            </p>
+                        </div>
 
-            <!-- Scripts-mobile -->
-            <script src="../scripts/nav-mobile.js"></script>
-        </div>        
+                        <div class="faq-instance">
+                            <p class="faq-question">Why did you make this site?</p>
+                            <p class="faq-answer">
+                                The club is rebranding itself and to assist in that effort, 
+                                I volunteered to write a website for the club. Content on 
+                                the site (specifically the club summary on the home page, the Anime List, and 
+                                the Events) are based off an earlier site another member created for the club.
+                            </p>
+                        </div>
+
+                        <div class="faq-instance">
+                            <p class="faq-question">Is this the final version of the club website?</p>
+                            <p class="faq-answer">
+                                Ideally not. I am not assuming there will be at least one club member who 
+                                is familar with HTML and CSS every semester, nor am I willing to be the club's 
+                                sole content writer indefinitely (seeing as at the time of this site's creation,
+                                I will graduate from WMU soon). The official website would have a backend and 
+                                CMS to allow club members/officers to edit the site without needing to know 
+                                HTML and CSS.
+                            </p>
+                        </div>
+
+                        <div class="faq-instance">
+                            <p class="faq-question">
+                                After deploying the official site, who should I contact to make changes beyond
+                                that which is allowed by a CMS (content management system)?
+                            </p>
+                            <p class="faq-answer">
+                                Assuming there is not a club member who is familar with the site's source code, 
+                                I would still be available to make changes if necessary (though my availability 
+                                after graduation may be limited). I will provide thorough documentation to the 
+                                club officers upon delivery.
+                            </p>
+                        </div>
+
+                        <div class="faq-instance">
+                            <p class="faq-question">
+                                Why cities?
+                            </p>
+                            <p class="faq-answer">
+                                Good question. Next question.
+                            </p>
+                        </div>
+
+                        <div class="faq-instance">
+                            <p class="faq-question">
+                                Why is the dictionary blank?
+                            </p>
+                            <p class="faq-answer">
+                                As the dictionary would likely have the most content on the site, I left it as 
+                                a feature to be developed largely on the backend for the official site.
+                            </p>
+                        </div>
+                    </section>
+
+                    <!-- Dictionary -->
+                    <section id="dictionary">
+                        <h3>Dictionary</h3>
+
+                        <!-- TODO: fill this out with backend -->
+                        <p>TBD</p>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <script type="text/javascript" src="../scripts/templates/footer.js"></script>
+        <script type="text/javascript">
+            FOOTER.init(["../assets/"]); // signature dir
+            FOOTER.writeFooter();
+        </script>
+
+        <!-- Scripts -->
+        <script src="../scripts/onPageLoad.js"></script>
+        <script src="../scripts/onScroll-script.js"></script>
+        <script src="../scripts/wiki-faq.js"></script>
+
+        <!-- Scripts-mobile -->
+        <script src="../scripts/nav-mobile.js"></script>      
     </body>
 </html>

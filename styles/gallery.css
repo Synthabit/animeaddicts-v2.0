@@ -19,7 +19,9 @@
 
 #images-wrapper { 
     margin-right: auto;    
-    margin-left: auto; 
+    margin-left: auto;
+    padding-top: 20px;
+    padding-bottom: 3px;
     line-height: 0;       
     -webkit-column-count: 5;    
     -webkit-column-gap: 0px;    

@@ -1,0 +1,58 @@
+/* wiki body */
+
+#wiki-bkgd {
+    background: rgb(15, 15, 15);
+}
+
+/* wiki head */
+#wiki-head::before {
+    background-image: url('../assets/img/gallery/skyline-new-york-city-7613.jpg');
+}
+
+/* faq & dictionary */
+
+#faq, #dictionary {
+    color: white;
+    padding-top: 20px;
+    border-top: 1px solid white;
+    width: 100%;
+}
+
+#faq h3, #dictionary h3 {
+    font-size: var(--h3-size);
+    padding-bottom: 20px;
+    color: var(--main-txt-color-light);
+}
+
+/* faq */
+
+.faq-instance {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid white;
+}
+
+.faq-instance .faq-question {
+    font-size: var(--p-showcase-size);
+    padding-bottom: 20px;
+    transition: color 0.3s;
+}
+
+.faq-instance .faq-question:hover {
+    cursor: pointer;
+}
+
+.faq-instance .faq-answer {
+    font-size: var(--main-font-size);
+}
+
+/* dictionary */
+
+#dictionary {
+    padding-bottom: 20px;
+}
+
+/* TEMPORARY STYLING */
+#dictionary p {
+    font-size: var(--p-showcase-size);
+}
