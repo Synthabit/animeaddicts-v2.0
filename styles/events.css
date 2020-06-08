@@ -1,3 +1,17 @@
+/* events body */
+
+#events-bkgd {
+    background: rgb(15, 15, 15);
+}
+
+/* header */
+
+#events-head::before {
+    background-image: url('../assets/img/gallery/high-rise-buildings-during-nighttime-1366957.jpg');
+}
+
+/* content */
+
 .events-instance {
     color: white;
     padding-top: 20px;

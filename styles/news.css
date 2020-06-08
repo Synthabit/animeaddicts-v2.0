@@ -1,3 +1,15 @@
+/* news body */
+
+#news-bkgd {
+    background: rgb(15, 15, 15);
+}
+
+/* news (page) head */
+
+#news-head {
+    background-image: url('../assets/img/gallery/architecture-buildings-business-city-290595.jpg');
+}
+
 /* news-instance */
 .news-instance {
     padding-top: 20px;

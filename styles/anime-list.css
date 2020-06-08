@@ -1,3 +1,17 @@
+/* anime list body */
+
+#anime-list-bkgd {
+    background: rgb(15, 15, 15);
+}
+
+/* header */
+
+#animelist-head::before {
+    background-image: url('../assets/img/gallery/photography-of-roadway-during-dusk-1034662.jpg');
+}
+
+/* content */
+
 .animelist {
     padding: 20px 0px 20px 0px;
     border-top: 1px solid white;
