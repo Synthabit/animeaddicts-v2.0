@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="styles/mobile.css">
         <title>Anime Addicts WMU | Home</title>
     </head>
-    <body>
+    <body class="article-bkgd" id="home-bkgd">
         <div class="content-wrap">
             <!--Nav-->
             <script type="text/javascript" src="scripts/templates/nav.js"></script>
@@ -19,21 +19,19 @@
                 NAV.writeNav();
             </script>
             <main>           
-                <!-- Landing -->
-                <section class="showcase">
-                    <div class="showcase-bkgd-img" id="landing-bkgd"></div>
-
-                    <div class="showcase-caption" id="landing-caption">
+                <!-- Landing header-->
+                <div class="article-head-imgbanner" id="home-head">
+                    <div class="article-head-imgbanner-inside" id="home-head-inside">
                         <h1>Anime Addicts at WMU</h1>
                         <p>
                             Eat, Sleep, Anime, Repeat
                         </p>
                     </div>
-                </section>
+                </div>
             
                 <!-- About Us: Summary -->
                 <section class="block" id="about">
-                    <div class="block-container"> 
+                    <div class="block-container" id="about-container"> 
                         <div class="block-content">
                             <div class="block-text">   
                                 <h2>About Us</h2> 
@@ -122,22 +120,26 @@
                         <div class="block-content" id="act-instances">
                             <!-- Anime List -->
                             <a href="pages/anime-list.html" class="act-instance">
-                                <img src="assets/img/icons/movie-media-player.svg" alt="Anime">
+                                <!-- <img src="assets/img/icons/movie-media-player.svg" alt="Anime"> -->
+                                <img src="assets/img/icons/movie-media-player_cyan.svg" alt="Anime">
                                 <h3>Check out our current showings for Spring 2020!</h3>
                             </a>
                             <!-- Events -->
                             <a href="pages/events.html" class="act-instance">
-                                <img src="assets/img/icons/calendar.svg" alt="Events">
+                                <!-- <img src="assets/img/icons/calendar.svg" alt="Events"> -->
+                                <img src="assets/img/icons/calendar_cyan.svg" alt="Events">
                                 <h3>See our upcoming events!</h3>
                             </a>
                             <!-- News -->
                             <a href="pages/news.html" class="act-instance">
-                                <img src="assets/img/icons/megaphone.svg" alt="Events">
+                                <!-- <img src="assets/img/icons/megaphone.svg" alt="Events"> -->
+                                <img src="assets/img/icons/megaphone_cyan.svg" alt="Events">
                                 <h3>Catch up on our latest updates!</h3>
                             </a>
                             <!-- WIKI -->
                             <a href="pages/wiki.html" class="act-instance">
-                                <img src="assets/img/icons/question-mark-round.svg" alt="Movie">
+                                <!-- <img src="assets/img/icons/question-mark-round.svg" alt="Movie"> -->
+                                <img src="assets/img/icons/question-mark-round_cyan.svg" alt="Movie">
                                 <h3>Have questions? Check out our wiki! <br>(WIP)</h3>
                             </a>
                         </div><!-- .block-content -->  

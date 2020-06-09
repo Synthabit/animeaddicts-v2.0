@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (1.0+r73+1)"
+   sodipodi:docname="movie-media-player_cyan.svg"
+   id="svg4"
+   version="1.1"
+   viewBox="0 0 640 640"
+   clip-rule="evenodd"
+   fill-rule="evenodd"
+   image-rendering="optimizeQuality"
+   text-rendering="geometricPrecision"
+   shape-rendering="geometricPrecision"
+   height="64"
+   width="64">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg4"
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:cy="32"
+     inkscape:cx="32.075829"
+     inkscape:zoom="13.1875"
+     showgrid="false"
+     id="namedview6"
+     inkscape:window-height="1015"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <path
+     style="fill:#99ffff;fill-opacity:1"
+     id="path2"
+     d="M599.027 65.706L31.583 272.318-.012 185.73 567.444-20.575l31.583 86.28zm40.985 594.87H32.505v-383.64h607.507v383.64zm-75.804-594.41V-7.475l-40.064 14.48v73.95l40.064-14.787zM484.4 95.447V21.485l-40.217 14.327v74.576L484.4 95.446zm-82.584 28.5V50.766l-40.217 14.48v73.49l40.217-14.788zm226.94 234.193l-25.264-69.497h-42.828l25.265 69.497h42.827zm-87.51 0l-25.263-69.497H472.99l25.43 69.497h42.827zm-219.864-203.07V80.956l-40.205 14.492v73.95l40.205-14.327zm135.427 203.07l-25.264-69.497h-42.828l25.265 69.497h42.827zM238.798 183.416v-73.49l-40.666 14.481v73.95l40.666-14.941zM369.3 358.139l-25.264-69.497h-42.981l25.264 69.497h42.98zM159.77 213.77v-74.115l-40.524 14.953v73.489l40.524-14.327zm123.25 144.368l-25.264-69.497h-42.828l25.265 69.497h42.827zM76.726 242.118v-73.49l-40.217 14.328v74.103l40.217-14.941zm119.246 116.02l-25.725-69.496h-42.532l24.815 69.497h43.442zm-85.348 0l-25.736-69.496H42.06l25.264 69.497h43.3z" />
+</svg>

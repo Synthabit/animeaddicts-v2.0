@@ -1,13 +1,52 @@
-/* landing */
+/* home body */
 
-#landing-bkgd {
+#home-bkgd {
+    background: rgb(15, 15, 15);
+}
+
+/* home landing */
+
+#home-head {
+    padding: 0;
+    height: 100vh;
+}
+#home-head::before {
     background-image: url('../assets/img/Showcase-Bench.png');
+    height: 100vh;
+}
+
+#home-head::after {
+    height: 100vh;
+    background: linear-gradient(rgba(15, 15, 15,  0), rgb(15, 15, 15));
+}
+
+#home-head-inside {
+    padding-top: 45vh;
+}
+
+#home-head-inside h1, #home-head-inside p {
+    color: white;
+    text-align: center; 
+}
+
+#home-head-inside h1 {
+    font-size: var(--h1-size);
+}
+
+#home-head-inside p {
+    font-size: var(--p-showcase-size);
 }
 
 /* "About Us" block */
 
 #about {
-    background: var(--main-window-color);
+    background: none;
+    /* border-bottom: 1px solid var(--main-window-color-light); */
+}
+
+#about-container {
+    /* background: #99ffff10; */
+    background: rgb(13, 13, 13);
 }
 
 #social-about {
@@ -34,7 +73,9 @@
 }
 
 #act {
-    background: var(--main-window-color-light);
+    /* background: var(--main-window-color-light); */
+    /* background: #ffffff05 */
+    background: rgb(18, 18, 18);
 }
 
 #act-instances {
@@ -56,7 +97,7 @@
 }
 
 .act-instance h3, .act-instance p {
-    color: var(--main-txt-color-dark);
+    color: var(--main-txt-color-light);
     text-align: center;
     display: block;
     width: 50%;
