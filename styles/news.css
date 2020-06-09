@@ -14,7 +14,6 @@
 .news-instance {
     padding-top: 20px;
     padding-bottom: 20px;
-    border-top: 1px solid white;
     font-size: var(--main-font-size);
 }
 

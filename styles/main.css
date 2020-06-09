@@ -168,7 +168,8 @@ nav {
     transition: color var(--hover-transition-time), background var(--hover-transition-time);
 }
 
-.nav-list li a:hover {
+.nav-list li a:hover,
+.nav-list li a:focus{
     color: var(--main-txt-color-dark);
     background: var(--main-txt-color-light);
 }
