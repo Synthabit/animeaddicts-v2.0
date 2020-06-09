@@ -1,0 +1,88 @@
+/* members body */
+
+#members-bkgd {
+    background: rgb(15, 15, 15);
+}
+
+/* members header */
+
+#members-head::before {
+    background-image: url('../assets/img/gallery/panoramic-view-of-city-lit-up-at-night-311012.jpg');
+}
+
+/* member content */
+
+.members-content {   
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    column-gap: 10px;
+    row-gap: 50px;
+}
+
+.article-content div:not(:last-child) {
+    padding-bottom: 60px;
+}
+
+.members-instance .members-avatar {
+    width: 75%;
+    border-radius: 5px;
+    display: block;
+}
+
+.members-instance h3 {
+    /* font-size: var(--h3-size); */
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.members-instance .members-position {
+    padding-top: 20px;
+}
+
+.members-instance .members-position p {
+    font-size: var(--p-showcase-size);
+}
+
+.members-instance .members-position .members-email {
+    display: flex;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.members-instance .members-position img {
+    width: 34px;
+    margin-right: 20px;
+}
+
+.members-instance .members-position a {
+    text-decoration: none;
+    color: white;
+    /* font-size: var(--main-font-size); */
+    font-size: 17px;
+}
+/* ======================================================================
+ * MOBILE
+ * ====================================================================== */
+
+@media screen and (max-width: 1100px) {
+     .members-content {
+        grid-template-columns: 33% 33% 33%;
+     }
+}
+
+@media screen and (max-width: 850px) {
+    .members-content {
+        grid-template-columns: 50% 50%;
+     }
+}
+
+@media screen and (max-width: 550px) {
+    .members-content {
+        display: block;
+    }
+}
