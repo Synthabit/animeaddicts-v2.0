@@ -12,7 +12,8 @@
 /* Gallery header */
 
 #gallery-header::before {
-    background-image: url('../assets/img/gallery/aerial-shot-of-city-1823734.jpg');
+    background-image: url('../assets/img/bkgd/anime-bkgd-5.jpg');
+    background-position: 50% 50%;
 }
 
 /* Gallery */

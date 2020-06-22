@@ -7,13 +7,14 @@
 /* news (page) head */
 
 #news-head {
-    background-image: url('../assets/img/gallery/architecture-buildings-business-city-290595.jpg');
+    background-image: url('../assets/img/bkgd/anime-bkgd-4.png');
+    background-position: 25% 55%;
 }
 
 /* news-instance */
 .news-instance {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
     font-size: var(--main-font-size);
 }
 
